@@ -1,0 +1,96 @@
+﻿@model WebTBGD.Models.CTDATHANG
+
+@{
+    ViewBag.Title = "DeleteDDH";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Bạn Có Chắc Muốn Xóa?</h3>
+<div>
+    <h4>Chi Tiết Đơn Hàng</h4>
+    <h4 style="margin-right:70px;float:right">@Html.ActionLink("Trờ Về Trang Chủ", "Index")</h4>
+    <hr />
+    <dl style="margin-left:70px" class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MADH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MADH)
+        </dd>
+
+        <dt>
+            Tên Khách Hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.TENKH )
+        </dd>
+
+
+        <dt>
+            Tên Sản Phẩm :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SANPHAM.TENSP )
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SOLUONG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SOLUONG)
+        </dd>
+        <dt>
+            Tình Trạng Giao Hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.TINHTRANGGIAOHANG )
+        </dd>
+        <dt>
+            Tình Trạng Thanh Toán
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.DATHANHTOAN )
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DONGIA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONGIA)
+        </dd>
+        <dt>
+            Ngày đặt
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.NGAYDAT )
+        </dd>
+        <dt>
+            Ngày giao
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.NGAYGIAO )
+        </dd>
+
+
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            
+        </div>
+    }
+</div>

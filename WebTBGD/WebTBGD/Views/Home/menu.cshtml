@@ -1,0 +1,24 @@
+﻿@using WebTBGD.Models;
+@model IEnumerable<LOAISP>
+
+    @foreach (var item in Model.GroupBy(n => n.DANHMUC))
+    {
+        if (item.Key != null)
+        { 
+        <li>
+        <a href="@Url.Action("SPDanhmuc", "SanPham", new { id = item.Key.MADM})" class="hvr-underline-from-left"  > ++ @item.Key.TENDANHMUC</a>
+            <ul class="sub-menu">
+
+                 @foreach (var item2 in Model)
+                 {  if (item2.DANHMUC.MADM == item.Key.MADM)
+                     {
+                         /*<a class="hvr-border-fade" href="#">@item2.TENLOAI </a>*/
+                    <li><a class="hvr-border-fade" href="@Url.Action("SPmenu", "SanPham", new { id = item2.MALOAI })">@item2.TENLOAI</a></li>
+                     }
+                 }
+            </ul>
+        </li>
+        }
+    }
+
+    

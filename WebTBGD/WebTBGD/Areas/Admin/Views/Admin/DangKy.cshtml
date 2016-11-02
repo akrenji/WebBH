@@ -1,0 +1,119 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Đăng ký</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Augment Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Areas/Admin/Content/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <!-- Custom CSS -->
+    <link href="~/Areas/Admin/Content/style.css" rel='stylesheet' type='text/css' />
+    <!-- Graph CSS -->
+    <link href="~/Areas/Admin/Content/font-awesome.css" rel="stylesheet">
+    <!-- jQuery -->
+    <link href='//fonts.googleapis.com/css?family=Roboto:700,500,300,100italic,100,400' rel='stylesheet' type='text/css'>
+    <!-- lined-icons -->
+    <link rel="stylesheet" href="~/Areas/Admin/Content/icon-font.min.css" type='text/css' />
+    <!-- //lined-icons -->
+    <script src="~/Areas/Admin/js/jquery-1.10.2.min.js"></script>
+    <!--clock init-->
+</head>
+<body>
+    <!--/login-->
+
+    <div class="error_page">
+        <!--/login-top-->
+
+        <div class="error-top">
+            <h2 class="inner-tittle page">Admin</h2>
+            <div class="login">
+                <h3 class="inner-tittle t-inner">Đăng ký</h3>
+                <form method="post" action="#" id="formDemo">
+                    <input type="text" name="id" value="E-mail address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail address';}">
+                    <input type="password" name="pass" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+                    <input type="text" name="phone" value="Phone Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone Number';}">
+                    <input type="text" name="fullname" value="User Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'User Name';}">
+                    <div class="submit"><input type="submit" onclick="myFunction()" value="Accept"></div>
+                    
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+
+
+        </div>
+
+
+        <!--//login-top-->
+    </div>
+
+    <!--//login-->
+    <!--footer section start-->
+    <div class="footer">
+        <div class="error-btn">
+            <a class="read fourth" href="@Url.Action("Index","Admin")">Trở lại Admin</a>
+        </div>
+    </div>
+    <!--footer section end-->
+    <!--/404-->
+    <!--js -->
+    <script src="~/Areas/Admin/js/jquery.nicescroll.js"></script>
+    <script src="~/Areas/Admin/jsv/scripts.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Areas/Admin/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function() {
+ //Khi bàn phím được nhấn và thả ra thì sẽ chạy phương thức này
+ $("#formDemo").validate({
+ rules: {
+ id: {
+ required: true,
+ email: true,
+ },
+ pass: {
+ required: true,
+ minlength: 5,
+ },
+ phone: {
+ required: true,
+ digits : true,
+ },
+ fullname: {
+     required: true,
+     minlength: 5,
+ },
+ },
+ messages: {
+     id: {
+         required:"Vui lòng nhập email",
+         email:"Nhập email lại!",
+     },
+     pass:{
+        required:"Vui lòng nhập mật khẩu",
+        minlength:"Mật khẩu quá ngắn",
+     },
+    phone: {
+        required: "Vui lòng nhập số điện thoại",
+        digits: "Vui lòng nhập só !!!",
+    },
+    fullname: {
+        required: "Vui lòng nhập tên",
+        minlength:"Nhập tên quá ngắn"
+    }
+ }
+ });
+});
+</script>
+
+

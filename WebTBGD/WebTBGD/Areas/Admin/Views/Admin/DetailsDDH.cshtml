@@ -1,0 +1,110 @@
+﻿@model WebTBGD.Models.CTDATHANG
+
+@{
+    ViewBag.Title = "DetailsDDH";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DetailsDDH</h2>
+
+<div>
+    <h4 style="margin-left:50px">Chi Tiết Đơn Hàng //@Html.ActionLink("Edit", "EditDDH", new { id = Model.MACT }) |</h4>
+    <p style="float:right;margin-right:70px">
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+    <hr />
+    <dl style="margin-left:70px" class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MADH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MADH)
+        </dd>
+        <dt>
+            Tên KH:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.TENKH )
+        </dd>
+        <dt>
+            Địa Chỉ :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.DIACHI )
+        </dd>
+        <dt>
+            SDT Khách Hàng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.SDT )
+        </dd>
+        <dt>
+            Email :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.KHACHHANG.EMAIL )
+        </dd>
+
+
+
+        <dt>
+            Tên Sản Phẩm:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SANPHAM.TENSP )
+        </dd>
+        <dt>
+            Tình Trạng Giao Hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.TINHTRANGGIAOHANG)
+        </dd>
+        <dt>
+            Tình Trạng Thanh Toán
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.DATHANHTOAN)
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SOLUONG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SOLUONG)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DONGIA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONGIA)
+        </dd>
+        <dt>
+            Ngày đặt
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.NGAYDAT)
+        </dd>
+        <dt>
+            Ngày giao
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONDATHANG.NGAYGIAO)
+        </dd>
+
+    </dl>
+</div>
+

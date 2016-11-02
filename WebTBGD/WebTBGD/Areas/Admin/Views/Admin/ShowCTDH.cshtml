@@ -1,0 +1,67 @@
+﻿@model IEnumerable<WebTBGD.Models.CTDATHANG>
+
+@{
+    ViewBag.Title = "ShowCTDH";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ShowCTDH</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" style="margin-left:20px">
+    <tr>
+        <th>
+            Tên Khách Hàng
+        </th>
+        <th>
+            Ngày Đặt
+        </th>
+        <th>
+            Món Hàng
+        </th>
+        <th>
+            Số Lượng
+        </th>
+        <th>
+            SDT
+        </th>
+        <th>
+            Ngày Giao
+        </th>
+        <th>
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DONDATHANG.KHACHHANG.TENKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DONDATHANG.NGAYDAT )
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SANPHAM.TENSP )
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SOLUONG )
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DONDATHANG.KHACHHANG.SDT )
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DONDATHANG.NGAYGIAO )
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "EditDDH", new { id=item.MACT }) |
+            @Html.ActionLink("Details", "DetailsDDH", new { id=item.MACT }) |
+            @Html.ActionLink("Delete", "DeleteDDH", new { id=item.MACT })
+        </td>
+    </tr>
+}
+
+</table>

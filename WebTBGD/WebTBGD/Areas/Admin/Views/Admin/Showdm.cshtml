@@ -1,0 +1,81 @@
+﻿@using PagedList.Mvc
+@using WebTBGD.Models
+@model PagedList.PagedList<DANHMUC>
+@{
+    ViewBag.Title = "Showdm";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="outter-wp">
+    <!--/sub-heard-part-->
+    <div class="sub-heard-part">
+        <ol class="breadcrumb m-b-0">
+            <li><a href="#">Home</a></li>
+            <li class="active"> Tabs &amp; Panels</li>
+        </ol>
+    </div>
+    <!--/sub-heard-part-->
+    <!--/tabs-->
+    <div class="tab-main">
+        <!--/tabs-inner-->
+        <div class="tab-inner">
+            <div id="tabs" class="tabs">
+                <h2 class="inner-tittle">Responsive Horizontal Tabs </h2>
+                <div class="graph">
+                    <nav>
+                        <ul>
+                            <li><a href="#section-1" class="icon-shop"><i class="lnr lnr-briefcase"></i> <span>Danh Mục</span></a></li>
+
+                        </ul>
+                    </nav>
+                    <div class="content tab">
+                        <section id="section-1">
+                            <div class="mediabox">
+                                <p>
+                                    @Html.ActionLink("Tạo", "themdanhmuc")
+                                </p>
+                                <table class="table">
+                                    <tr>
+                                        <th style="text-align:center">
+                                            Danh Mục
+                                        </th>
+                                        <th></th>
+                                    </tr>
+
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.TENDANHMUC)
+                                            </td>
+                                            <td>
+                                                @Html.ActionLink("Delete", "DeleteDM", new { id = item.MADM })
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </table>
+                                trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount;
+                                <div class="MenuTrang">
+                                    @Html.PagedListPager(Model, page => Url.Action("Showloai", new { page = page }))
+                                </div>
+                            </div>
+                        </section>
+                    </div><!-- /content -->
+                </div>
+                <!-- /tabs -->
+
+            </div>
+            <script src="~/Areas/Admin/js/cbpFWTabs.js"></script>
+            <script>
+																				new CBPFWTabs( document.getElementById( 'tabs' ) );
+            </script>
+
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!--//tabs-inner-->
+</div>

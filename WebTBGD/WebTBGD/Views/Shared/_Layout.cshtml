@@ -1,0 +1,234 @@
+﻿<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+@using WebTBGD.Models
+<!DOCTYPE HTML>
+<head>
+    <title>ĐỒ ĐIỆN GIA DỤNG</title>
+    <meta property="fb:app_id" content="2154793004744934" />
+    <meta property="og:url" content="dodiengiadung.somee.com"/>
+    <meta property=”og:site_name” content= "Website Bán Hàng    "/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Web thiet nhan" />
+    <meta property="og:description" content="Web ban hang truoc tiep max re cho nhung nha giau" />
+    <meta property="og:image" content="dodiengiadung.somee.com/image/10.jpg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="~/Content/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all" />
+    <script type="text/javascript" src="~/Scripts/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/move-top.js"></script>
+    <script type="text/javascript" src="~/Scripts/easing.js"></script>
+    <script type="text/javascript" src="~/Scripts/startstop-slider.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+
+
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '2154793004744934',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/vi_VN/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+    <div class="wrap">
+        <div class="header">
+            <div class="headertop_desc">
+                <div class="call">
+                    <p><span>Hỗ trợ</span> gọi đến <span class="number">0909349402</span></p>
+                </div>
+                <div class="account_desc">
+                    <ul>
+
+                        @if (Session["User"] != null )
+            {
+                KHACHHANG kh = (KHACHHANG)Session["User"];
+                            <li> <a href="@Url.Action("ThongTinTaiKhoan","KhachHang")"> Tên Dăng Nhập : @kh.TENKH </a> </li>
+                            <li><a href="@Url.Action("GioHang","GioHang")"> Giỏ Hàng </a></li>
+                            <li><a href="@Url.Action("Thoat","KhachHang")">Thoát Tài Khoản</a></li>
+
+                        }
+                        else
+                        {
+                            <li><a href="@Url.Action("Dangnhap","KhachHang")">Tạo Tài Khoản</a></li>
+                            <li><a href="@Url.Action("Dangnhap","KhachHang")">Đăng Nhập</a></li>
+                            <li><a href="@Url.Action("GioHang","GioHang")"> Giỏ Hàng </a></li>
+                        }
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            @Html.Action("Top", "GioHang")
+            <div class="header_slide">
+                <div class="header_bottom_left">
+                    <div class="categories">
+                        <ul>
+                            <h3>Danh mục</h3>
+
+                            @Html.Action("menu", "Home")
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="header_bottom_right">
+                    <div class="slider">
+                        <div id="slider">
+                            <div id="mover">
+                                <div id="slide-1" class="slide">
+                                    <div class="slider-img">
+                                        <a href="preview.html"><img src="~/image/1,1,1.jpg" alt="learn more" /></a>
+                                    </div>
+                                    <div class="slider-text">
+                                        <h1>Nồi cơm điện<br><span>GIẢM</span></h1>
+                                        <h2>đến 20%</h2>
+                                        <div class="features_list">
+                                            <h4>Nhanh tay mua nào</h4>
+                                        </div>
+                                        <a href="preview.html" class="button">Mua ngay</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slider-text">
+                                        <h1>Đồ điện gia dụng<br><span>GIẢM</span></h1>
+                                        <h2>đến 40%</h2>
+                                        <div class="features_list">
+                                            <h4>Hãy nhanh tay đến với của hàng</h4>
+                                        </div>
+                                        <a href="preview.html" class="button">Mua ngay</a>
+                                    </div>
+                                    <div class="slider-img">
+                                        <a href="preview.html"><img src="~/image/1,2,1.jpg" alt="learn more" /></a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="slide">
+                                    <div class="slider-img">
+                                        <a href="preview.html"><img src="~/image/1,12,1.png" alt="learn more" /></a>
+                                    </div>
+                                    <div class="slider-text">
+                                        <h1>Đồ điện gia dụng<br><span>GIẢM</span></h1>
+                                        <h2>đến 10% </h2>
+                                        <div class="features_list">
+                                            <h4>Nhanh tay thì còn, chậm tay thì hết</h4>
+                                        </div>
+                                        <a href="preview.html" class="button">Mua ngay</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        @RenderBody()
+        @Html.Action("bottom", "Home")
+<script type="text/javascript">
+		$(document).ready(function() {
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+</script>
+<a href="#" id="toTop"><span id="toTopHover"> </span></a>
+
+        <style>
+            #cfacebook {
+                    position: fixed;
+                    bottom: 0px;
+                    right: 100px;
+                    z-index: 999999999999999;
+                    width: 250px;
+                    height: auto;
+                    box-shadow: 6px 6px 6px 10px rgba(0,0,0,0.2);
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    overflow: hidden;
+                }
+
+                    #cfacebook .fchat {
+                        float: left;
+                        width: 100%;
+                        height: 270px;
+                        overflow: hidden;
+                        display: none;
+                        background-color: #fff;
+                    }
+
+                        #cfacebook .fchat .fb-page {
+                            margin-top: -130px;
+                            float: left;
+                        }
+
+                    #cfacebook a.chat_fb {
+                        float: left;
+                        padding: 0 25px;
+                        width: 250px;
+                        color: #fff;
+                        text-decoration: none;
+                        height: 40px;
+                        line-height: 40px;
+                        text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAqCAMAAABFoMFOAAAAWlBMV…8/UxBxQDQuFwlpqgBZBq6+P+unVY1GnDgwqbD2zGz5e1lBdwvGGPE6OgAAAABJRU5ErkJggg==);
+                        background-repeat: repeat-x;
+                        background-size: auto;
+                        background-position: 0 0;
+                        background-color: #3a5795;
+                        border: 0;
+                        border-bottom: 1px solid #133783;
+                        z-index: 9999999;
+                        margin-right: 12px;
+                        font-size: 18px;
+                    }
+
+                        #cfacebook a.chat_fb:hover {
+                            color: yellow;
+                            text-decoration: none;
+                        }
+        </style>
+
+        <div id="fb-root">
+            
+            <script>
+                jQuery(document).ready(function () {
+                    jQuery(".chat_fb").click(function() {
+                        jQuery('.fchat').toggle('slow');
+                    });
+                });
+            </script>
+            <div id="cfacebook">
+                <a href="javascript:;" class="chat_fb" onclick="return:false;"><i class="fa fa-facebook-square"></i> Phản hồi của bạn</a>
+                <div class="fchat">
+                    <div class="fb-page" data-tabs="messages" data-href="https://www.facebook.com/Komi-941861872585244/" data-width="250" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+</html>

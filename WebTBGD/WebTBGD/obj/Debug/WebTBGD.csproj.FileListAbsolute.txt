@@ -1,0 +1,222 @@
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\csc.exe
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\System.Collections.Immutable.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\vbc.exe
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\VBCSCompiler.exe
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\roslyn\VBCSCompiler.exe.config
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\WebTBGD.dll.config
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\WebTBGD.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\WebTBGD.pdb
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Antlr3.Runtime.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\EntityFramework.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\EntityFramework.SqlServer.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Google.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Web.Infrastructure.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Newtonsoft.Json.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Owin.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.Helpers.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.Mvc.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.Optimization.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.Razor.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.WebPages.Deployment.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.WebPages.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.WebPages.Razor.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\WebGrease.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.Helpers.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.Mvc.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.Optimization.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.Razor.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.WebPages.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.WebPages.Deployment.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\System.Web.WebPages.Razor.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Antlr3.Runtime.pdb
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Newtonsoft.Json.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\EntityFramework.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\EntityFramework.SqlServer.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Google.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\obj\Debug\WebTBGD.csprojResolveAssemblyReference.cache
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\obj\Debug\WebTBGD.dll
+c:\users\nhanpc\documents\visual studio 2015\Projects\WebTBGD\WebTBGD\obj\Debug\WebTBGD.pdb
+C:\Users\Nhanpc\Documents\Visual Studio 2015\Projects\WebTBGD\WebTBGD\bin\AjaxControlToolkit.dll
+C:\Users\Nhanpc\Documents\Visual Studio 2015\Projects\WebTBGD\WebTBGD\bin\PagedList.dll
+C:\Users\Nhanpc\Documents\Visual Studio 2015\Projects\WebTBGD\WebTBGD\bin\PagedList.Mvc.dll
+C:\Users\Nhanpc\Documents\Visual Studio 2015\Projects\WebTBGD\WebTBGD\bin\PagedList.xml
+C:\Users\Nhanpc\Documents\Visual Studio 2015\Projects\WebTBGD\WebTBGD\bin\PagedList.Mvc.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\csc.exe
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\vbc.exe
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\VBCSCompiler.exe
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\WebTBGD.dll.config
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\WebTBGD.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\WebTBGD.pdb
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\AjaxControlToolkit.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Antlr3.Runtime.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\EntityFramework.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\EntityFramework.SqlServer.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Newtonsoft.Json.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Owin.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\PagedList.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\PagedList.Mvc.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.Helpers.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.Mvc.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.Optimization.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.Razor.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.WebPages.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\WebGrease.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\PagedList.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\PagedList.Mvc.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.Helpers.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.Mvc.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.Optimization.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.Razor.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.WebPages.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Antlr3.Runtime.pdb
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Newtonsoft.Json.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\EntityFramework.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\EntityFramework.SqlServer.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\obj\Debug\WebTBGD.dll
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\obj\Debug\WebTBGD.pdb
+C:\Users\Son\Desktop\WebTBGD\WebTBGD\obj\Debug\WebTBGD.csprojResolveAssemblyReference.cache
+D:\WebTBGD\WebTBGD\bin\roslyn\csc.exe
+D:\WebTBGD\WebTBGD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebTBGD\WebTBGD\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebTBGD\WebTBGD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebTBGD\WebTBGD\bin\roslyn\System.Collections.Immutable.dll
+D:\WebTBGD\WebTBGD\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebTBGD\WebTBGD\bin\roslyn\vbc.exe
+D:\WebTBGD\WebTBGD\bin\roslyn\VBCSCompiler.exe
+D:\WebTBGD\WebTBGD\bin\roslyn\VBCSCompiler.exe.config
+D:\WebTBGD\WebTBGD\bin\WebTBGD.dll.config
+D:\WebTBGD\WebTBGD\bin\WebTBGD.dll
+D:\WebTBGD\WebTBGD\bin\WebTBGD.pdb
+D:\WebTBGD\WebTBGD\bin\AjaxControlToolkit.dll
+D:\WebTBGD\WebTBGD\bin\Antlr3.Runtime.dll
+D:\WebTBGD\WebTBGD\bin\EntityFramework.dll
+D:\WebTBGD\WebTBGD\bin\EntityFramework.SqlServer.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Core.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Cookies.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Facebook.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Google.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.OAuth.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Twitter.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.Web.Infrastructure.dll
+D:\WebTBGD\WebTBGD\bin\Newtonsoft.Json.dll
+D:\WebTBGD\WebTBGD\bin\Owin.dll
+D:\WebTBGD\WebTBGD\bin\PagedList.dll
+D:\WebTBGD\WebTBGD\bin\PagedList.Mvc.dll
+D:\WebTBGD\WebTBGD\bin\System.Web.Helpers.dll
+D:\WebTBGD\WebTBGD\bin\System.Web.Mvc.dll
+D:\WebTBGD\WebTBGD\bin\System.Web.Optimization.dll
+D:\WebTBGD\WebTBGD\bin\System.Web.Razor.dll
+D:\WebTBGD\WebTBGD\bin\System.Web.WebPages.Deployment.dll
+D:\WebTBGD\WebTBGD\bin\System.Web.WebPages.dll
+D:\WebTBGD\WebTBGD\bin\System.Web.WebPages.Razor.dll
+D:\WebTBGD\WebTBGD\bin\WebGrease.dll
+D:\WebTBGD\WebTBGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebTBGD\WebTBGD\bin\PagedList.xml
+D:\WebTBGD\WebTBGD\bin\PagedList.Mvc.xml
+D:\WebTBGD\WebTBGD\bin\System.Web.Helpers.xml
+D:\WebTBGD\WebTBGD\bin\System.Web.Mvc.xml
+D:\WebTBGD\WebTBGD\bin\System.Web.Optimization.xml
+D:\WebTBGD\WebTBGD\bin\System.Web.Razor.xml
+D:\WebTBGD\WebTBGD\bin\System.Web.WebPages.xml
+D:\WebTBGD\WebTBGD\bin\System.Web.WebPages.Deployment.xml
+D:\WebTBGD\WebTBGD\bin\System.Web.WebPages.Razor.xml
+D:\WebTBGD\WebTBGD\bin\Antlr3.Runtime.pdb
+D:\WebTBGD\WebTBGD\bin\Newtonsoft.Json.xml
+D:\WebTBGD\WebTBGD\bin\EntityFramework.xml
+D:\WebTBGD\WebTBGD\bin\EntityFramework.SqlServer.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Core.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Facebook.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Cookies.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.OAuth.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Google.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.Twitter.xml
+D:\WebTBGD\WebTBGD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\WebTBGD\WebTBGD\obj\Debug\WebTBGD.csprojResolveAssemblyReference.cache
+D:\WebTBGD\WebTBGD\obj\Debug\WebTBGD.dll
+D:\WebTBGD\WebTBGD\obj\Debug\WebTBGD.pdb

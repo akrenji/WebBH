@@ -1,0 +1,55 @@
+﻿@using PagedList.Mvc
+@using WebTBGD.Models
+@model PagedList.PagedList<SANPHAM>
+@{
+    ViewBag.Title = "KetQuaTimKiem";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="content_top">
+    <div class="heading">
+        <h3>Kết quả tìm kiếm</h3>
+    </div>
+    <div class="clear"></div>
+</div>
+<div>@ViewBag.ThongBao</div>
+<div class="section group">
+    @foreach (var item in Model)
+    {
+        <div class="grid_1_of_4 images_1_of_4">
+            <div class="hover14">
+                <div class="snipcart">
+                    <figure>
+                        <a href="@Url.Action("ThongtinSP", "SanPham", new {id = item.MASP })"><img src="~/image/@item.ANH" alt="@item.TENSP" /></a>
+
+                        @if (@item.TENSP.Length > 25)
+                        {
+                            <h2>@item.TENSP.Substring(0, 25)...</h2>
+                        }
+                        else
+                        {
+                            <h2>@item.TENSP</h2>
+                        }
+                        <div class="price-details">
+                            <div class="price-number">
+                                <p><span class="rupees">@String.Format("{0:0,0}", @item.GIA) VND</span></p>
+                            </div>
+                            <div class="add-cart">
+                                <h4><a href="@Url.Action("ThemGiohang", "GioHang", new { iMASP = @item.MASP, @strURL=Request.Url.ToString() })">Thêm Vào Giỏ </a></h4>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("KetQuaTimKiem", new { page = page,@sTuKhoa=ViewBag.TuKhoa }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+        float: left;
+    }
+</style>

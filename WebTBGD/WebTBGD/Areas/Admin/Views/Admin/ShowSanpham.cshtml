@@ -1,0 +1,108 @@
+﻿@using PagedList.Mvc
+@using WebTBGD.Models
+@model PagedList.PagedList<SANPHAM>
+
+@{
+    ViewBag.Title = "ShowSanpham";
+
+}
+
+<div class="outter-wp">
+    <!--/sub-heard-part-->
+    <div class="sub-heard-part">
+        <ol class="breadcrumb m-b-0">
+            <li><a href="#">Home</a></li>
+            <li class="active"> Tabs &amp; Panels</li>
+        </ol>
+    </div>
+    <!--/sub-heard-part-->
+    <!--/tabs-->
+    <div class="tab-main">
+        <!--/tabs-inner-->
+        <div class="tab-inner">
+            <div id="tabs" class="tabs">
+                <h2 class="inner-tittle">Responsive Horizontal Tabs </h2>
+                <div class="graph">
+                    <nav>
+                        <ul>
+                            <li><a href="#section-1" class="icon-shop"><i class="lnr lnr-briefcase"></i> <span>Sản Phẩm</span></a></li>
+
+                        </ul>
+                    </nav>
+                    <div class="content tab">
+                        <section id="section-1">
+                            <div class="mediabox">
+                                <p style="font-size:25px">
+                                    @Html.ActionLink("Thêm Mới", "themsp", "Admin")
+                                </p>
+                                <hr />
+                                <table class="table" style="text-align:center; font-size:20px">
+                                    <tr style="text-align:center; font-weight:bold;">
+                                        <th>
+                                            Mã Loại
+                                        </th>
+                                        <th>
+                                            Tên Sản Phẩm
+                                        </th>
+                                        <th>
+                                            Ảnh
+                                        </th>
+                                        <th>
+                                            Giá
+                                        </th>
+
+                                        <th></th>
+                                    </tr>
+
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @item.MASP
+                                            </td>
+                                            <td>
+                                                @item.TENSP
+                                            </td>
+                                            <td>
+                                                <img style="height:140px;width:140px" src="~/image/@item.ANH" alt="" />
+                                            </td>
+                                            <td>
+                                                @item.GIA
+                                            </td>
+
+                                            <td>
+                                                @Html.ActionLink("Edit", "EditSP", new { id = item.MASP }) |
+                                                @Html.ActionLink("Details", "Details", new { id = item.MASP }) |
+                                                @Html.ActionLink("Delete", "Delete", new { id = item.MASP })
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </table>
+                                Trang Hiện Tại @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+                                <div class="MenuTrang">
+                                    @Html.PagedListPager(Model, page => Url.Action("ShowSanpham", new { page = page }))
+                                </div>
+                                <style>
+                                    .MenuTrang li {
+                                        display: inline;
+                                    }
+                                </style>
+
+                            </div>
+                        </section>
+                    </div><!-- /content -->
+                </div>
+                <!-- /tabs -->
+
+            </div>
+            <script src="~/Areas/Admin/js/cbpFWTabs.js"></script>
+            <script>
+																				new CBPFWTabs( document.getElementById( 'tabs' ) );
+            </script>
+
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!--//tabs-inner-->
+</div>

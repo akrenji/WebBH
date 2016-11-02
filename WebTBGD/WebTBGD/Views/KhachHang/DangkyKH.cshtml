@@ -1,0 +1,67 @@
+﻿
+    <h2>Tạo Tài Khoản</h2>
+    <form action="#" method="post" id="formDemo">
+        <input type="text" name="Username" placeholder="Email" required>
+        <input type="password" name="Password" placeholder="Mật Khẩu" required >
+        <input type="text" name="Phone" placeholder="Số Điện Thoại" required maxlength="11">
+        <input type="text" name="NAME" placeholder="Họ Tên " required>
+        <select  name="GIOITINH" style="width:70px;height:40px;border: 1px solid #d9d9d9;margin-bottom:20px" required >
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+        </select>
+        <input type="text" name="DIACHI" placeholder="Địa Chỉ" required>
+        <input type="submit" value="Chấp nhận">
+    </form>
+<script type="text/javascript">
+$(document).ready(function() {
+ //Khi bàn phím được nhấn và thả ra thì sẽ chạy phương thức này
+ $("#formDemo").validate({
+ rules: {
+ Username: {
+ required: true,
+ email: true,
+ },
+ Password: {
+ required: true,
+ minlength: 5,
+ },
+ NAME: {
+     required: true,
+     minlength: 5,
+ },
+ Phone: {
+ required: true,
+ digits : true,
+ },
+ DiACHI: {
+     required: true,
+     minlength: 5,
+ },
+ },
+ messages: {
+     Username: {
+         required:"Vui lòng nhập email",
+         email:"Nhập email lại",
+     },
+     Password:{
+        required:"Vui lòng nhập mật khẩu",
+        minlength:"Mật khẩu quá ngắn",
+     },
+
+    DIACHI: {
+        required: "Vui lòng nhập địa chỉ",
+        minlength: "Địa chỉ ngắn vậy, chém gió ah?"
+    },
+    NAME: {
+        required: "Vui lòng nhập họ tên",
+        minlength: "Hãy nhập họ tên thật",
+    },
+    Phone: {
+        required: "Vui lòng nhập số điện thoại",
+        digits: "Nhập sai",
+    },
+ }
+ });
+});
+</script>
+

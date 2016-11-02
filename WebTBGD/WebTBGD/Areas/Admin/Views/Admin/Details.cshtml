@@ -1,0 +1,96 @@
+﻿@model WebTBGD.Models.SANPHAM
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<div style="margin-left :40px">
+    <h4 style="margin-left :70px"> Chi Tiết @Html.DisplayFor(model => model.TENSP) @Html.ActionLink("Edit", "EditSP", new { id = Model.MASP }) </h4>
+    <h4 style="float:right;margin-right:50px">@Html.ActionLink("Trở Về Trang Chủ", "Index")</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Mã Loại :")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MALOAI)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Tên Sản Phẩm :")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TENSP)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Ảnh Sản Phẩm :")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ANH)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Giá Thành :")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GIA)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Khuyến Mãi :")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KHUYENMAI)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Thời Gian Bảo Hành :")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.THOIGIANBH)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Thương Hiệu :")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.THUONGHIEU)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Thông Số Kỹ Thuật :")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.THONGSOKYTHUAT)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Mô Tả Sản Phẩm :")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MOTASANPHAM)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Ngày Nhập :")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NGAYNHAP)
+        </dd>
+
+    </dl>
+</div>
+

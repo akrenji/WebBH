@@ -1,0 +1,101 @@
+﻿@model WebTBGD.Models.SANPHAM
+<script src="http://localhost:58296/Scripts/jquery.validate.min.js"></script>
+    @{
+    ViewBag.Title = "themsp";
+   
+    }
+
+    @using (Html.BeginForm("themsp", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4 style="margin-left:50px ">Thêm Sản Phẩm </h4>
+            <h4 style="float:right; color:ghostwhite; margin-right:70px"><a href="@Url.Action("Index","Admin")"> Trở về Trang Chủ </a></h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.Label("Loại Sản Phẩm", htmlAttributes: new { @class = "control-label col-md-2" ,@style ="margin-top= 50px" })
+                <div class="col-md-10">
+                    @Html.DropDownList("MALOAI", null, new {@class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.MALOAI, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Tên Sản Phẩm", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.TENSP, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.TENSP, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Ảnh Sản Phẩm", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <input  type="file" name="fileUpload" class="btn btn-default"/>
+            `       @ViewBag.ThongBao
+                    @Html.ValidationMessageFor(model => model.ANH, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Giá Sản Phẩm", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.GIA, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.GIA, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Khuyến Mãi", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.KHUYENMAI, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.KHUYENMAI, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Thởi Gian Bảo Hành", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.THOIGIANBH, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.THOIGIANBH, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Thương Hiệu", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.THUONGHIEU, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.THUONGHIEU, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Thông Số Kỹ Thuật", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <textarea class = "form-control" name="THONGSOKYTHUAT">Mô tả sản phẩm</textarea>
+                    @Html.ValidationMessageFor(model => model.THONGSOKYTHUAT, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Mô Tả Sản Phẩm", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <textarea style="height:50%" name="MOTASANPHAM">Mô tả sản phẩm</textarea>
+                    @Html.ValidationMessageFor(model => model.MOTASANPHAM, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+
+

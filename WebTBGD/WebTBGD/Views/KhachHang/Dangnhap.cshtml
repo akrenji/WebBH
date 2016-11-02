@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Dangnhap";
+    Layout = "~/Views/Shared/_Layoutdetails.cshtml";
+}
+<div class="w3_login_module">
+    <div class="module form-module">
+        <div class="toggle">
+            <i class="fa fa-times fa-pencil"></i>
+            <div class="tooltip">Đăng Ký</div>
+        </div>
+
+        <div class="form">
+            <h2>Đăng Nhập Tài Khoản</h2>
+                <form action="#" method="post">
+                    <input type="email" name="ID" placeholder="Nhập Tài Khoản" required="">
+                    <input type="password" name="PASS" placeholder="Nhập Mật Khẩu" required="">
+                    <input type="submit" value="Đăng nhập">
+                </form>
+        </div>
+        <div class="form">
+            @Html.Action("DangkyKH", "KhachHang")
+        </div>
+        <div class="cta"><a href="#">Quên Mật Khẩu ?</a></div>
+        </div>
+</div>
+<script>
+				$('.toggle').click(function(){
+				  // Switches the Icon
+				  $(this).children('i').toggleClass('fa-pencil');
+				  // Switches the forms
+				  $('.form').animate({
+					height: "toggle",
+					'padding-top': 'toggle',
+					'padding-bottom': 'toggle',
+					opacity: "toggle"
+				  }, "slow");
+				});
+</script>
+
